@@ -5,6 +5,7 @@ class MathPractice extends React.Component {
 	onClickAddition = () => {
 
 		console.log('onClickAddition');
+		debugger;
 		navigate("/addition");
 	};
 	onClickSubtraction = () => {
@@ -36,3 +37,12 @@ class MathPractice extends React.Component {
 }
 
 export default MathPractice;
+
+// function Home() {
+// 	return (
+// 		<div>
+// 			<h1>This is the Home page</h1>
+// 		</div>
+// 	);
+// }
+// export default Home;
